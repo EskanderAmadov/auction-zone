@@ -6,7 +6,6 @@ import Listings from "./pages/Listings";
 import ListingDetails from "./pages/ListingDetails";
 import Profile from "./pages/Profile";
 import About from "./pages/About";
-import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 import NavbarComponent from "./components/NavbarComponent";
 import LoginModal from "./components/LoginModal";
@@ -39,7 +38,7 @@ function App() {
             <Route path="/listing/:id" element={<ListingDetails />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/about" element={<About />} />
-            <Route path="*" element={<NotFound />} />
+      
           </Routes>
         </Container>
 
