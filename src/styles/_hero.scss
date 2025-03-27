@@ -1,0 +1,35 @@
+.hero-section {
+  background: url("../../public/herobanner.jpg") no-repeat center center/cover;
+  min-height: 75vh;
+  display: flex;
+  background-position: revert;
+  align-items: center;
+  
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .hero-subtext {
+    font-size: 1.2rem;
+    color: #eee;
+    max-width: 500px;
+  }
+
+  .hero-btn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ff9800;
+    border: none;
+    &:hover {
+      background-color: darken(#ff9800, 10%);
+    }
+  }
+}

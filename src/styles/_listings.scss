@@ -1,0 +1,44 @@
+.listings-page {
+  position: relative;
+
+  .yellow-stripe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #ffcc00;
+  }
+
+  .sticky-header {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1000;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    h1 {
+      font-weight: 700;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+      color: #666;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sticky-header {
+      position: initial;
+      background-color: #fff;
+      z-index: 1000;
+      padding: 0 !important;
+      margin-bottom: 2rem;
+      box-shadow: none;
+      border-radius: 8px;
+  }
+}
+}

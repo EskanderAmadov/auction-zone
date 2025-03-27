@@ -1,0 +1,32 @@
+.navbar {
+  background-color: $light-bg;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  .nav-link {
+    color: $text-color !important;
+    &:hover {
+      color: $primary-color !important;
+    }
+  }
+
+  .btn-login {
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    &:hover {
+      background: $primary-color;
+      color: $light-text;
+    }
+  }
+
+.responsive-dropdown {
+  right: auto !important;
+  left: 0 !important;
+}
+
+@media (min-width: 768px) {
+  .responsive-dropdown {
+    right: 0 !important;
+    left: auto !important;
+  }
+}
+}

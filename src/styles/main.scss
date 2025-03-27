@@ -1,0 +1,35 @@
+// Importer alle SCSS-filer her
+@import "variables";
+@import "navbar";
+@import "hero";
+@import "footer";
+@import "popularListings";
+@import "listings";
+@import "listingsCard";
+@import "promoSection";
+@import "profile";
+@import "listingDetails";
+
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  width: 100%;
+}
+
