@@ -17,7 +17,7 @@
 
 # Live Demo
 
-🔗 [Live Site]()
+🔗 [Live Site](https://auction-zone-amadov.netlify.app/)
 
 ---
 
@@ -65,7 +65,7 @@ To demonstrate the knowledge and skills acquired over the last semesters by buil
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/auction-zone.git
+git clone https://github.com/EskanderAmadov/auction-zone.git
 cd auction-zone
 ```
 
@@ -76,6 +76,6 @@ npm install
 
 ### 3. Run the development server
 ```bash
-npm run dev
-Open http://localhost:port in your browser to view the app.
+npm start dev
+Open http://localhost:3000 in your browser to view the app.
 ```
