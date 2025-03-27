@@ -17,7 +17,7 @@
 
 # Live Demo
 
-🔗 [Live Site](https://auction-zone-amadov.netlify.app/)
+🔗 [Live Site](https://auction-zone-ia.netlify.app/)
 
 ---
 
